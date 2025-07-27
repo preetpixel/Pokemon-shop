@@ -1,0 +1,23 @@
+name: pokemon_shop
+description: A Flutter app to buy and sell Pokémon cards.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.10.0
+  cloud_firestore: ^4.5.0
+  firebase_auth: ^4.6.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
